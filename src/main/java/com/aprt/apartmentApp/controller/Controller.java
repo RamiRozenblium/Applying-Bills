@@ -20,21 +20,36 @@ public class Controller {
     @Autowired
     Service service;
 
+    //TODO: Better use @PathVariable
+    //https://www.baeldung.com/spring-controllers
+    //https://www.baeldung.com/spring-boot-start
+
     @GetMapping("/getGazBill")
     public GazBill getGazBill(@RequestParam long id) {
         return service.getGazBillById(id);
     }
 
+    //TODO: Better use @PathVariable
+    //https://www.baeldung.com/spring-controllers
+    //https://www.baeldung.com/spring-boot-start
     @GetMapping("/getWaterBill")
     public WaterBill getWaterBill(@RequestParam long id) {
         return service.getWaterBillById(id);
     }
 
+    //TODO: Better use @PathVariable
+    //https://www.baeldung.com/spring-controllers
+    //https://www.baeldung.com/spring-boot-start
+    //TODO check name: mistake
     @GetMapping("/getEectricBill")
     public ElectricBill getEectricBill(@RequestParam long id ) {
         return service.getElectricBillById(id);
     }
 
+    //TODO: Better use @PathVariable and @RequestBody
+    //https://www.baeldung.com/spring-controllers
+    //https://www.baeldung.com/spring-boot-start
+    // TODO better return object Bill
     @PostMapping("/addBill")
     public HttpStatus addBill(@RequestParam String typeBill, @RequestParam int amount) {
         service.addBill(typeBill, amount);
@@ -46,11 +61,16 @@ public class Controller {
         return service.getAllBills();
     }
 
+    //TODO: Better use @PathVariable and @RequestBody
+    //https://www.baeldung.com/spring-controllers
+    //https://www.baeldung.com/spring-boot-start
+    // TODO better return object Bill
     @DeleteMapping("/deleteBill")
     public HttpStatus deleteBillById(@RequestParam long id) {
         service.deleteBillById(id);
         return HttpStatus.OK;
     }
 
+    //TODO updateBill()
 
 }
