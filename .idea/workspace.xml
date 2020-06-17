@@ -2,17 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a207333a-a772-4854-8113-0155fc54b96d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aprt/apartmentApp/model/UpdateBillDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/aprt/apartmentApp/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aprt/apartmentApp/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aprt/apartmentApp/service/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aprt/apartmentApp/service/BillService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aprt/apartmentApp/service/ServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aprt/apartmentApp/service/BillServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="dev" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -27,7 +40,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.aprt.model" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -41,5 +60,27 @@
       <updated>1592155512209</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="533" y="150" key="#com.intellij.ide.util.MemberChooser" timestamp="1592419590612">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state x="533" y="150" key="#com.intellij.ide.util.MemberChooser/0.23.1440.827@0.23.1440.827" timestamp="1592419590612" />
+    <state x="317" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1592420667385">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state x="317" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.827@0.23.1440.827" timestamp="1592420667385" />
+    <state x="508" y="357" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592419255112">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state x="508" y="357" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.827@0.23.1440.827" timestamp="1592419255112" />
+    <state x="463" y="156" key="git4idea.branch.GitSmartOperationDialog" timestamp="1592419383859">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state x="463" y="156" key="git4idea.branch.GitSmartOperationDialog/0.23.1440.827@0.23.1440.827" timestamp="1592419383859" />
+    <state x="385" y="174" key="search.everywhere.popup" timestamp="1592420449678">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state x="385" y="174" key="search.everywhere.popup/0.23.1440.827@0.23.1440.827" timestamp="1592420449678" />
   </component>
 </project>

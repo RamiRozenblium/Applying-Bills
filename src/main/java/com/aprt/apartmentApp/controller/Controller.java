@@ -4,13 +4,12 @@ import com.aprt.apartmentApp.model.Bill;
 import com.aprt.apartmentApp.model.ElectricBill;
 import com.aprt.apartmentApp.model.GazBill;
 import com.aprt.apartmentApp.model.WaterBill;
-import com.aprt.apartmentApp.service.Service;
+import com.aprt.apartmentApp.service.BillService;
+import com.aprt.apartmentApp.model.UpdateBillDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
-import java.io.File;
-import java.util.ArrayList;
 import java.util.List;
 
 @RestController
@@ -18,7 +17,7 @@ import java.util.List;
 public class Controller {
 
     @Autowired
-    Service service;
+    BillService service;
 
     //TODO: Better use @PathVariable
     //https://www.baeldung.com/spring-controllers
@@ -70,7 +69,11 @@ public class Controller {
         service.deleteBillById(id);
         return HttpStatus.OK;
     }
-
+    @PutMapping("/bill/{id}")
     //TODO updateBill()
+    public Bill updateBill(@PathVariable long id , @RequestBody UpdateBillDto updateBillDto){
+        return service.updateBill(id,updateBillDto);
+    }
+
 
 }
